@@ -1,39 +1,69 @@
-projects = {
-    [{
-        "title": "Project Two Random Generator",
-        "url":  "https://itlady01.github.io/Project-Two-List-Pagination-and-filtering",
-        "Image of Project One":                                          ,
-        "Image of Project One":                                             ,
-        },
+Projects = {
+    [{      
+        "id": [0],
+        "title": "Project One Random Quote Generator",
+        "description":" This project gives you a Random Quote generator",                       ,
+        "technologies": "Java Script","CSS",""
+        "url":"https://itlady01.github.io/Project-Two-List-Pagination-and-filtering",
+        "live_link":"  ",
+        "github_link":"",
+        
+        "image_urls":"",                                         ,
+              },
     
-        {
+        {   "id": [1],
             "title": " Project Two Pagination and Filter ",
             "url": "https://itlady01.github.io/Project-Two-List-Pagination-and-filtering",
-            "Image of Project Two":,
-            "Image of Project Two":,
-           
+            "live_link":"",
+            "github_link": "",
+            "technologies": "",
+            "image_urls": "",
+
         },
-    
+
         {
-            "title": "Project Three ",
-            "url": "500"
-        }
+        "id":[2],
+        "title": "Project Two Random Generator",
+        "description": "",
+        "url": "https://itlady01.github.io/Project-Two-List-Pagination-and-filtering",
+        "live_link": "",
+        "github_link": "",
+        "technologies":"" ,
+        "image_urls": "",
+                },
+        
+             {
+          "id": [3],
+        "title": "Project Two Random Generator",
+        "description": "",
+            "url": "https://itlady01.github.io/Project-Two-List-Pagination-and-filtering",
+            "live_link": "",
+            "github_link": "",
+            "technologies": "",
+            "image_urls": "",
+        },
+
+        {
+            "id": [4],
+            "title": "Project Two Random Generator",
+            "description": "",
+            "url": "https://itlady01.github.io/Project-Two-List-Pagination-and-filtering",
+            "live_link": "",
+            "github_link": "",
+            "technologies": "",
+            "image_urls": "",
+        },
+        {
+            "id": [5],
+            "title": "Project Two Random Generator",
+            "description": "",
+            "url": "https://itlady01.github.io/Project-Two-List-Pagination-and-filtering",
+            "live_link": "",
+            "github_link": "",
+            "technologies": "",
+            "image_urls": "",
+        },
          ]},
 
-projects = {
-    "Title": "Project Two Random Generator", 
-     "url": // https://itlady01.github.io/Project-Two-List-Pagination-and-filtering/,,
-    "cars": [{
-            "name": "Ford",
-            "models": 
-        },
-        {
-            "name": "BMW",
-            "models": ["320", "X3", "X5"]
-        },
-        {
-            "name": "Fiat",
-            "models": ["500", "Panda"]
-        }
     
 }
