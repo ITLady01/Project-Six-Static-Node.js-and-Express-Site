@@ -1,4 +1,4 @@
-/ Require express
+//Require express
 const express = require('express');
 // Get the data from the data.json
 const data = require('./data.json');

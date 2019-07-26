@@ -91,15 +91,14 @@
   {
     "projects": [
       {
-        "id": 0,
-        "project_name": "Public API Request",
+        "id":[0] ,
+        "project_name": "Project One-Random Quote Generator",
         "description": "This project uses Fetch API to request data from a public API. The project will allow ussers to search through the directory of employees. If an employee is clicked a modal will open with more info on the employee as well as buttons to allow the user to move through each employee",
         "technologies": [
           "HTML",
           "CSS",
-          "JavaScript",
-          "JSON"
-        ],
+          "JavaScript"
+                  ],
         "live_link": "https://gmolle.github.io/techdegree-project-5/",
         "github_link": "https://github.com/gmolle/techdegree-project-5",
         "image_urls": [
@@ -122,9 +121,8 @@
         "image_urls": [
             "static/images/Project Two-Paginatiion Links and Filtering.PNG",
           "static/images/Project Two-Paginatiion Links and Filtering.1.0.PNG",
-          " "
-          
-        ]
+          "static/images/Project Two-Paginatiion Links and Filtering.1.1.PNG"
+          ]
       },
       {
         "id": 2,
