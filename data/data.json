@@ -13,7 +13,7 @@
         "github_link":"https://github.com/ITLady01/Project-One-Random-Quote-Generator",
         "image_urls": [
           "/static/images/Project One Random Quote Generator.PNG",
-          "/static:images/Project One Random Quote Generator 1.0.PNG",
+          "/static/images/Project One Random Quote Generator 1.0.PNG",
           "/static/images/Project One Random Quote Generator 1.1.PNG"
         ]
       },
@@ -29,9 +29,9 @@
         "live_link":  "https://itlady01.github.io/Project-Two-List-Pagination-and-filtering/",
         "github_link":"https://github.com/ITLady01/Project-Two-List-Pagination-and-filtering",
         "image_urls": [
-          "static/images/Project Two-Paginatiion Links and Filtering.PNG",
-          "static/images/Project Two-Paginatiion Links and Filtering.1.0.PNG",
-          "static/images/Project Two-Paginatiion Links and Filtering.1.1.PNG"
+          "static/images/Project Two-Pagination Links and Filtering.PNG",
+          "static/images/Project Two-Pagination Links and Filtering.1.0.PNG",
+          "static/images/Project Two-Pagination Links and Filtering.1.1.PNG"
           ]
       },
       {
