@@ -36,7 +36,7 @@
       },
       {
         "id": [2],
-        "project_name": "Interactive Form",
+        "project_name": "Project-Three-Interactive-form",
         "description": "A form that has been made interactive. The form uses regex to validate the users input and if any of the info is entered incorrectly an error is shown",
         "technologies": [
           "HTML",
@@ -44,44 +44,48 @@
           "JavaScript",
           "jQuery"
         ],
-        "live_link": "https://gmolle.github.io/techdegree-project-3/",
-        "github_link": "https://github.com/gmolle/techdegree-project-3",
+        "live_link": "https://itlady01.github.io/Project-Three-Interactive-form/",
+        "github_link": "https://github.com/ITLady01/Project-Three-Interactive-form",
         "image_urls": [
-          "/static/img/project3-1.png",
-          "/static/img/project3-2.png",
-          "/static/img/project3-3.png"
+          "/static/images/Interactive Project #3.PNG",
+          "/static/images/Interactive Project #3 1.0.PNG",
+          "/static/images/Interactive Project #3 1.1.PNG"
         ]
       },
       {
-        "id": 3,
-        "project_name": "List Pagination and Filtering",
-        "description": "An app that creates pagination links at the bottom of the page based on the amount of students in the list. A search bar was added allowing the user the ability to search through the list.",
+        "id": [3],
+        "project_name": "Project-4-OOP-Game-Show-App",
+        "description": "Game created with object oriented programming. The game generates a phrase onto the screen with empty boxes in place of the letters. The user then has to try and guess what the phrase is without running out of lives.",
         "technologies": [
           "HTML",
           "CSS",
           "JavaScript"
         ],
-        "live_link": "https://gmolle.github.io/techdegree-project-2/",
-        "github_link": "https://github.com/gmolle/techdegree-project-2",
+        "live_link": " https://itlady01.github.io/Project-4-OOP-Game-Show-App/",
+        "github_link": "https://github.com/ITLady01/Project-4-OOP-Game-Show-App",
         "image_urls": [
-          "/static/img/project2-1.png",
-          "/static/img/project2-2.png"
+          "/static/images/OOO Game Show App Project#4.PNG",
+          "/static/images/OOO Game Show App Project#4 1.0.PNG",
+          "/static/images/OOO Game Show App Project#4 1.1.PNG"
         ]
       },
       {
-        "id": 4,
-        "project_name": "Random Quote Generator",
-        "description": "Using basic JavaScript syntax, variables, loops, conditionals and object literals, I've built this an app that displays a motivational quote when the button is clicked or after a certain amount of time has passed.",
+        "id": [4],
+        "project_name": "Public API Request",
+        "description": "This project uses Fetch API to request data from a public API. The project will allow ussers to search through the directory of employees. If an employee is clicked a modal will open with more info on the employee as well as buttons to allow the user to move through each employee",
         "technologies": [
           "HTML",
           "CSS",
-          "JavaScript"
+          "JavaScript",
+          "JSON"
         ],
-        "live_link": "https://gmolle.github.io/Techdegree-Project-1/",
-        "github_link": "https://github.com/gmolle/Techdegree-Project-1",
+        "live_link": "https://itlady01.github.io/Project-Five-Public-API/",
+        "github_link": "https://github.com/ITLady01/Project-Five-Public-API",
         "image_urls": [
-          "/static/img/project1-1.png",
-          "/static/img/project1-2.png"
+           "/static/images/API Request Public Project #5.PNG",
+          "/static/images/API Request Public Project #5 1.0.PNG",
+          "/static/images/API Request Public Project #5 1.0.PNG"
+
         ]
       }
     ]
