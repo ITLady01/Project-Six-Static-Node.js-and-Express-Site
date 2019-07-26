@@ -4,7 +4,7 @@
         "id":[0] ,
         "project_name": "Project One-Random Quote Generator",
         "description": "Using basic JavaScript syntax, variables, loops, conditionals and object literals. This produces a random generator",
-        "technologies": [,
+        "technologies": [
           "HTML",
           "CSS",
           "JavaScript"
@@ -14,7 +14,7 @@
         "image_urls": [
           "/static/images/Project One Random Quote Generator.PNG",
           "/static:images/Project One Random Quote Generator 1.0.PNG",
-          "/static/images/Project One Random Quote Generator 1.1.PNG",
+          "/static/images/Project One Random Quote Generator 1.1.PNG"
         ]
       },
       {
