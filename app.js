@@ -15,8 +15,8 @@ app.use('/static', express.static('public'))
 
 // Home page get request
 app.get('/', (req, res) => {
-  const templateData = { projects }
-  res.render('index', templateData);
+  const ProjectData = { projects }
+  res.render('index', ProjectData);
 });
 
 // Project pages get request. 
@@ -30,18 +30,18 @@ app.get('/project/:id', (req, res, next) => {
 
   // Sets all the data to variables
   const project = projects[id];
-  const projectName = project.project_name;
+  const projectTitle = project.project_name;
   const description = project.description;
-  const technologies = project.technologies;
+  const skills = project.technologies;
   const liveLink = project.live_link;
   const githubLink = project.github_link;
-  const imageUrls = project.image_urls;
+  const imageLinks = project.image_urls;
 
   // Object that holds all the data
-  const templateData = { projectName, description, technologies, liveLink, githubLink, imageUrls }
+  const ProjectData = { projectTitle, description, skills, liveLink, githubLink, imageLinks }
 
   // Renders the project page with the data
-  res.render('project', templateData);
+  res.render('project', ProjectData);
 
 
 });
