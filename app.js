@@ -1,7 +1,7 @@
 //Require express
 const express = require('express');
 // Get the data from the data.json
-const data = require('./data.json');
+const data = require('./data/data.json');
 const projects = data.projects;
 
 // Tells the app to use express
@@ -15,13 +15,17 @@ app.use('/static', express.static('public'))
 
 // Home page get request
 app.get('/', (req, res) => {
-  const ProjectData = { projects }
+  const ProjectData = {
+    projects
+  }
   res.render('index', ProjectData);
 });
 
 // Project pages get request. 
 app.get('/project/:id', (req, res, next) => {
-  const { id } = req.params;
+  const {
+    id
+  } = req.params;
 
   // If the id sent to the route is greater than the number of projects, or if the id is not a number, call next.
   if (id > projects.length || isNaN(id)) {
@@ -38,7 +42,14 @@ app.get('/project/:id', (req, res, next) => {
   const imageLinks = project.image_urls;
 
   // Object that holds all the data
-  const ProjectData = { projectTitle, description, skills, liveLink, githubLink, imageLinks }
+  const ProjectData = {
+    projectTitle,
+    description,
+    skills,
+    liveLink,
+    githubLink,
+    imageLinks
+  }
 
   // Renders the project page with the data
   res.render('project', ProjectData);
