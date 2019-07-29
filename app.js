@@ -15,13 +15,17 @@ app.use('/static', express.static('public'))
 
 // Home page is being requested 
 app.get('/', (req, res) => {
-  const ProjectData = { projects }
+  const ProjectData = {
+    projects
+  }
   res.render('index', ProjectData);
 });
 
 // Project pages get request. 
 app.get('/project/:id', (req, res, next) => {
-  const { id } = req.params;
+  const {
+    id
+  } = req.params;
 
   // If the id sent to the route is greater than the number of projects, or if the id is not a number, call next.
   if (id > projects.length || isNaN(id)) {
