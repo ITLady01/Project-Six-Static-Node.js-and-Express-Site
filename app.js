@@ -60,7 +60,7 @@ app.get('/about', (req, res) => {
 // Creates a new 404 status error
 app.use((req, res, next) => {
   const err = new Error("Not Found");
-  err.status = 404;s
+  err.status = 404;
   next(err);
 });
 
