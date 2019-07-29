@@ -27,11 +27,11 @@ block content
         a.button.expanded(href=`${githubLink}target= '_blank'`) GitHub Repo
     
     //- Replace the URLs in the src attributes below with template literals and interpolation to dynamically add three project images.  You only have to add one image.  But adding more images to show your app in different states demonstrates a level of thoroughness and professionalism that potential employers will like to see. 
-    img.image(src='https://itlady01.github.io/Project-One-Random-Quote-Generator/')
-    img.image(src='https://itlady01.github.io/Project-Two-List-Pagination-and-filtering/')
-    img.image(src='https://itlady01.github.io/Project-4-OOP-Game-Show-App/')
+    //- img.image(src='https://itlady01.github.io/Project-One-Random-Quote-Generator/')
+    //- img.image(src='https://itlady01.github.io/Project-Two-List-Pagination-and-filtering/')
+    //- img.image(src='https://itlady01.github.io/Project-4-OOP-Game-Show-App/')
 
-     each imageLinks in project.image_urls
-      img.image(src= `/static/images/${imageLinks}`)
+    each imageLinks in project.image_Links
+      img.image(src= `/static/images/${image_Links}`)
 
     
