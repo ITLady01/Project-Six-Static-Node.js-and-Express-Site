@@ -15,17 +15,13 @@ app.use('/static', express.static('public'))
 
 // Home page get request
 app.get('/', (req, res) => {
-  const ProjectData = {
-    projects
-  }
+  const ProjectData = { projects }
   res.render('index', ProjectData);
 });
 
 // Project pages get request. 
 app.get('/project/:id', (req, res, next) => {
-  const {
-    id
-  } = req.params;
+  const { id } = req.params;
 
   // If the id sent to the route is greater than the number of projects, or if the id is not a number, call next.
   if (id > projects.length || isNaN(id)) {
@@ -34,18 +30,18 @@ app.get('/project/:id', (req, res, next) => {
 
   // Sets all the data to variables
   const project = projects[id];
-  const projectTitle = project.project_name;
+  const projectTitle = project.project_Title;
   const description = project.description;
-  const skills = project.technologies;
+  const technologies = project.technologies;
   const liveLink = project.live_link;
-  const githubLink = project.github_link;
-  const imageLinks = project.image_urls;
+  const githubLink = project.github_Link;
+  const imageLinks = project.image_Links;
 
   // Object that holds all the data
   const ProjectData = {
     projectTitle,
     description,
-    skills,
+    technologies,
     liveLink,
     githubLink,
     imageLinks
@@ -53,7 +49,6 @@ app.get('/project/:id', (req, res, next) => {
 
   // Renders the project page with the data
   res.render('project', ProjectData);
-
 
 });
 
@@ -76,7 +71,7 @@ app.use((err, req, res, next) => {
   res.render('error')
 })
 
-// Heroku
+// Assigning Port to 3000
 let port = process.env.PORT || 3000;
 
 // Listens for connections to the specified port and runs the app with a message of what port the app is running on
