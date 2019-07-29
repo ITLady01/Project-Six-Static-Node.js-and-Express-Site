@@ -37,7 +37,7 @@ app.get('/project/:id', (req, res, next) => {
   const projectTitle = project.project_Title;
   const description = project.description;
   const technologies = project.technologies;
-  const liveLink = project.live_link;
+  const liveLink = project.live_Link;
   const githubLink = project.github_Link;
   const imageLinks = project.image_Links;
 
