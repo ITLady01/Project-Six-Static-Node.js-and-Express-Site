@@ -43,7 +43,7 @@
           "JavaScript",
           "jQuery"
         ],
-        "live_link": "https://itlady01.github.io/Project-Three-Interactive-form/",
+        "live_Link": "https://itlady01.github.io/Project-Three-Interactive-form/",
         "github_Link": "https://github.com/ITLady01/Project-Three-Interactive-form",
         "image_Links": [
           "/static/images/Interactive Project #3.PNG",
@@ -60,7 +60,7 @@
           "CSS",
           "JavaScript"
         ],
-        "live_link": " https://itlady01.github.io/Project-4-OOP-Game-Show-App/",
+        "live_Link": " https://itlady01.github.io/Project-4-OOP-Game-Show-App/",
         "github_Link": "https://github.com/ITLady01/Project-4-OOP-Game-Show-App",
         "image_Links": [
           "/static/images/OOO Game Show App Project#4.PNG",
@@ -76,9 +76,10 @@
           "HTML",
           "CSS",
           "JavaScript",
-          "JSON", "jQuery","Random User API" ],
+          "JSON", "jQuery", "Random User API"
+        ],
 
-        "live_link": "https://itlady01.github.io/Project-Five-Public-API/",
+        "live_Link": "https://itlady01.github.io/Project-Five-Public-API/",
         "github_Link": "https://github.com/ITLady01/Project-Five-Public-API",
         "image_Links": [
           "/static/images/API Request Public Project #5.PNG",
