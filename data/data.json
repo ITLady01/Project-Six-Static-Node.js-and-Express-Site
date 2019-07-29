@@ -33,11 +33,12 @@
         "live_Link": "https://itlady01.github.io/Project-Three-Interactive-form/",
         "github_Link": "https://github.com/ITLady01/Project-Three-Interactive-form",
         "image_Links": [
-          "/static/images/Interactive Project #3.PNG",
-          "/static/images/Interactive Project #3 1.0.PNG",
-          "/static/images/Interactive Project #3 1.1.PNG"
+          "/static/images/Interactive Project Three.PNG",
+          "/static/images/Interactive Project Three 1.0.PNG",
+          "/static/images/Interactive Project Three 1.1.PNG"
         ]
       },
+
       {
         "id": [3],
         "project_Title": "Project-4-OOP-Game-Show-App",
@@ -46,9 +47,9 @@
         "live_Link": " https://itlady01.github.io/Project-4-OOP-Game-Show-App/",
         "github_Link": "https://github.com/ITLady01/Project-4-OOP-Game-Show-App",
         "image_Links": [
-          "/static/images/OOO Game Show App Project#4.PNG",
-          "/static/images/OOO Game Show App Project#4 1.0.PNG",
-          "/static/images/OOO Game Show App Project#4 1.1.PNG"
+          "/static/images/OOO Game Show App Project Four.PNG",
+          "/static/images/OOO Game Show App Project Four 1.0.PNG",
+         "/static/images/OOO Game Show App Project Four 1.1.PNG"
         ]
       },
       {
@@ -63,6 +64,6 @@
           "/static/images/API Request Public Project #5 1.0.PNG",
           "/static/images/API Request Public Project #5 1.1.PNG"
         ]
-      }
+       }
     ]
   }
