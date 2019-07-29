@@ -72,7 +72,7 @@
       {
         "id": [4],
         "project_name": "Public API Request",
-        "description": "This project uses Fetch API to request data from a public API. The project will allow ussers to search through the directory of employees. If an employee is clicked a modal will open with more info on the employee as well as buttons to allow the user to move through each employee",
+        "description": "This project uses Fetch API to request data from a public API. The project will allow users to search through the directory of employees. If an employee is clicked a modal will open with more info on the employee as well as buttons to allow the user to move through each employee",
         "technologies": [
           "HTML",
           "CSS",
