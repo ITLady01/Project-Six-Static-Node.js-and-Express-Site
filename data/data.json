@@ -77,8 +77,8 @@
           "HTML",
           "CSS",
           "JavaScript",
-          "JSON"
-        ],
+          "JSON","jQuery","Randpm User API"
+                ],
         "live_link": "https://itlady01.github.io/Project-Five-Public-API/",
         "github_link": "https://github.com/ITLady01/Project-Five-Public-API",
         "image_urls": [

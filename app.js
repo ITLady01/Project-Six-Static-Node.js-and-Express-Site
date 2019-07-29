@@ -81,5 +81,5 @@ let port = process.env.PORT || 3000;
 
 // Listens for connections to the specified port and runs the app with a message of what port the app is running on
 app.listen(port, () => {
-  console.log(`The application is running on localhost:${port}`);
+  console.log(`The application is running on localhost:3000!${port}`);
 });
