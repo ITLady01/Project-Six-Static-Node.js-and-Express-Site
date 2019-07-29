@@ -42,7 +42,7 @@ app.get('/project/:id', (req, res, next) => {
   const imageLinks = project.image_Links;
 
   // Object that holds all the data
-  const ProjectData = {
+  const projectData = {
     projectTitle,
     description,
     technologies,
@@ -52,7 +52,9 @@ app.get('/project/:id', (req, res, next) => {
   }
 
   // Renders the project page with the data
-  res.render('project', ProjectData);
+  res.render('project', {
+    projectData
+  });
 
 });
 

@@ -28,9 +28,9 @@
         "live_link": "https://itlady01.github.io/Project-Two-List-Pagination-and-filtering/",
         "github_link": "https://github.com/ITLady01/Project-Two-List-Pagination-and-filtering",
         "image_Links": [
-          "static/images/Project Two-Pagination Links and Filtering.PNG",
-          "static/images/Project Two-Pagination Links and Filtering.1.0.PNG",
-          "static/images/Project Two-Pagination Links and Filtering.1.1.PNG"
+          "/static/images/Project Two-Pagination Links and Filtering.PNG",
+          "/static/images/Project Two-Pagination Links and Filtering.1.0.PNG",
+          "/static/images/Project Two-Pagination Links and Filtering.1.1.PNG"
         ]
       },
       {
