@@ -1,6 +1,6 @@
 //Require express
 const express = require('express');
-// Get the data from the data.json
+// Getting the data from the data.json
 const data = require('./data/data.json');
 const projects = data.projects;
 
@@ -13,7 +13,7 @@ app.set('view engine', 'pug');
 // Static method to use the files in public folder
 app.use('/static', express.static('public'))
 
-// Home page get request
+// Home page is being requested 
 app.get('/', (req, res) => {
   const ProjectData = { projects }
   res.render('index', ProjectData);
