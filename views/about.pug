@@ -1,8 +1,10 @@
 extends layout.pug
 
+extends layout.pug
+
 block content 
   nav.grid-container.portfolio-breadcrumb
-    a(href='/') ← Back
+    a(href='/') ? Back
   article.grid-container.portfolio-intro.portfolio-project
     .grid-x
       .cell.small-6.medium-9.large-9
@@ -26,7 +28,7 @@ block content
          .cell.portfolio-meta.small-6.medium-2.large-3
         h6 Skills 
 
-        //- Replace the text in the li tags below with your own skills.  At this point, you should be able to list at least ten skills.
+        //- List of my Skills
         ul
           li HTML
           li CSS
@@ -43,17 +45,16 @@ block content
 
           h6 My Contact Info
 
-        //- Add your own contact info
+        //- My Contact info
         ul
           li Phone: 732-338-9775
           li Email Address: unwokiwu@gmail.com 
 
-        //- Add URLs to the hrefs below to link to your social media accounts.
+        //- These are my social media accounts.
         a.button.expanded(href='https://www.linkedin.com/in/urenwanwokiwu1/') LinkedIn 
         a.button.expanded(href='https://github.com/ITLady01') GitHub
-        a.button.expanded(href='https://twitter.com/ihoma3') Twitter
-        a.button.expanded(href='https://teamtreehouse.com/urenwanwokiwu') Treehouse
+        a.button.expanded(href='https://teamtreehouse.com/urenwanwokiwu') Team Treehouse
 
    nav.grid-container.portfolio-breadcrumb
-    a(href='/') ← Back
+    a(href='/') ? Back
   
