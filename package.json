@@ -1,5 +1,5 @@
 {
-  "name": "project-six-static-node.js-and-express-site",
+  "name": "clear",
   "version": "1.0.0",
   "description": "Static Node.js and Express Site Project",
   "main": "index.js",
@@ -19,5 +19,6 @@
   "dependencies": {
     "express": "^4.17.1",
     "pug": "^2.0.4"
-  }
+  },
+  "devDependencies": {}
 }
