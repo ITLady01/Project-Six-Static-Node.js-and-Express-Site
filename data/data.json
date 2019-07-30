@@ -1,0 +1,69 @@
+{
+    "projects": [{
+        "id": [0],
+        "project_Title": "Project One-Random Quote Generator",
+        "description": "Using basic JavaScript syntax, variables, loops, conditionals and object literals. This produces a random generator",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_Link": "https://itlady01.github.io/Project-One-Random-Quote-Generator/",
+        "github_Link": "https://github.com/ITLady01/Project-One-Random-Quote-Generator",
+        "image_Links": [
+          "/static/images/Project One Random Quote Generator.PNG",
+          "/static/images/Project One Random Quote Generator 1.0.PNG",
+          "/static/images/Project One Random Quote Generator 1.1.PNG"
+        ]
+      },
+      {
+        "id": [1],
+        "project_Title": "Project-Two-List-Pagination-and-filtering",
+        "description": "An app that creates pagination links at the bottom of the page based on the amount of students in the list. A search bar was added allowing the user the ability to search through the list.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_Link": "https://itlady01.github.io/Project-Two-List-Pagination-and-filtering/",
+        "github_Link": "https://github.com/ITLady01/Project-Two-List-Pagination-and-filtering",
+        "image_Links": [
+          "/static/images/Project Two-Pagination Links and Filtering.PNG",
+          "/static/images/Project Two-Pagination Links and Filtering.1.0.PNG",
+          "/static/images/Project Two-Pagination Links and Filtering.1.1.PNG"
+        ]
+      },
+      {
+        "id": [2],
+        "project_Title": "Project-Three-Interactive-form",
+        "description": "A form that has been made interactive. The form uses regex to validate the users input and if any of the info is entered incorrectly an error is shown",
+        "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
+        "live_Link": "https://itlady01.github.io/Project-Three-Interactive-form/",
+        "github_Link": "https://github.com/ITLady01/Project-Three-Interactive-form",
+        "image_Links": [
+          "/static/images/Interactive Project Three.PNG",
+          "/static/images/Interactive Project Three 1.0.PNG",
+          "/static/images/Interactive Project Three 1.1.PNG"
+        ]
+      },
+
+      {
+        "id": [3],
+        "project_Title": "Project-4-OOP-Game-Show-App",
+        "description": "Game created with object oriented programming. The game generates a phrase onto the screen with empty boxes in place of the letters. The user then has to try and guess what the phrase is without running out of lives.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_Link": " https://itlady01.github.io/Project-4-OOP-Game-Show-App/",
+        "github_Link": "https://github.com/ITLady01/Project-4-OOP-Game-Show-App",
+        "image_Links": [
+          "/static/images/OOO Game Show App Project Four.PNG",
+          "/static/images/OOO Game Show App Project Four 1.0.PNG",
+          "/static/images/OOO Game Show App Project Four 1.1.PNG"
+        ]
+      },
+      {
+        "id": [4],
+        "project_Title": "Public API Request",
+        "description": "This project uses Fetch API to request data from a public API. The project will allow users to search through the directory of employees. If an employee is clicked a modal will open with more info on the employee as well as buttons to allow the user to move through each employee",
+        "technologies": ["HTML", "CSS", "JavaScript", "JSON", "jQuery", "Random User API"],
+        "live_Link": "https://itlady01.github.io/Project-Five-Public-API/",
+        "github_Link": "https://github.com/ITLady01/Project-Five-Public-API",
+        "image_Links": [
+          "/static/images/API Request Public Project Five.PNG",
+          "/static/images/API Request Public Project Five 1.0.PNG",
+          "/static/images/API Request Public Project Five 1.1.PNG"
+        ]
+      }
+    ]
+  }
