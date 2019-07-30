@@ -1,8 +1,8 @@
 {
-  "name": "clear",
+  "name": "node",
   "version": "1.0.0",
   "description": "Static Node.js and Express Site Project",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/ITLady01/Project-Six-Static-Node.js-and-Express-Site.git"
   },
-  "author": "",
+  "author": "Winnie",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ITLady01/Project-Six-Static-Node.js-and-Express-Site/issues"
@@ -20,5 +20,10 @@
     "express": "^4.17.1",
     "pug": "^2.0.4"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "keywords": [
+    "node",
+    "app",
+    "js"
+  ]
 }
