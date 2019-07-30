@@ -1,7 +1,7 @@
 {
-  "name": "Project-Six-Static-Node.js-and-Express-Site",
+  "name": "node",
   "version": "1.0.0",
-  "description": "",
+  "description": "Static Node.js and Express Site Project",
   "main": "index.js",
   "dependencies": {
     "express": "^4.17.1",
