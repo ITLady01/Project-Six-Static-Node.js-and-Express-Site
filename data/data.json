@@ -7,14 +7,14 @@
         "live_Link": "https://itlady01.github.io/Project-One-Random-Quote-Generator/",
         "github_Link": "https://github.com/ITLady01/Project-One-Random-Quote-Generator",
         "image_Links": [
-          "/static/images/Project One Random Quote Generator.PNG",
-          "/static/images/Project One Random Quote Generator 1.0.PNG",
-          "/static/images/Project One Random Quote Generator 1.1.PNG"
-        ]
+          "/static/images/Project One Random Quote Generator.png",
+          "/static/images/Project One Random Quote Generator 1.0.png",
+          "/static/images/Project One Random Quote Generator 1.1.png"
+                 ]
       },
       {
         "id": [1],
-        "project_Title": "Project-Two-List-Pagination-and-filtering",
+        "project_Title": "Project-Two-List-Pagination-and-Filtering",
         "description": "An app that creates pagination links at the bottom of the page based on the amount of students in the list. A search bar was added allowing the user the ability to search through the list.",
         "technologies": ["HTML", "CSS", "JavaScript"],
         "live_Link": "https://itlady01.github.io/Project-Two-List-Pagination-and-filtering/",
