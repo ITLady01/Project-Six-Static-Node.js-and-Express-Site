@@ -18,7 +18,7 @@ block content
     
         //-  Pug for each project  
       .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
-        each project in project.projects
+        each project in projects
           .cell
             a(href=`/project/${project.id}`)
               img.thumbnail(src=`${project.image_Links[0]}`)
