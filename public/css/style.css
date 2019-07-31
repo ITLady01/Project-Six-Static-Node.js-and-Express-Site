@@ -11,7 +11,7 @@ h1{
 }
   h5{
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    letter-spacing: 3.5px;
+    letter-spacing: 3.0px;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
     color: violet;
@@ -32,8 +32,7 @@ h1{
   div.cell.auto{
     font-size: 20px;
     color: White;
-    padding: 1px 10px;
-  }
+      }
 
 .round{
   border-radius: 5px;

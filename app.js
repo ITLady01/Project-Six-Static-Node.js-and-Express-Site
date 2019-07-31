@@ -40,8 +40,7 @@ app.get('/project/:id', (req, res, next) => {
   const liveLink = project.live_Link;
   const githubLink = project.github_Link;
   const imageLinks = project.image_Links;
-  const userEmail = project.user_email;
-
+  
   // Object that holds all the data
   const projectData = {
     projectTitle,
@@ -49,7 +48,6 @@ app.get('/project/:id', (req, res, next) => {
     technologies,
     liveLink,
     githubLink,
-    userEmail,
     imageLinks
   }
 
