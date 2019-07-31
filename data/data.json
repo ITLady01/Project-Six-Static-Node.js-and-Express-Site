@@ -6,7 +6,7 @@
         "technologies": ["HTML", "CSS", "JavaScript"],
         "live_Link": "https://itlady01.github.io/Project-One-Random-Quote-Generator/",
         "github_Link": "https://github.com/ITLady01/Project-One-Random-Quote-Generator",
-        "image_Links": [
+        "imageLinks": [
           "/static/images/Project One Random Quote Generator.png",
           "/static/images/Project One Random Quote Generator 1.0.png",
           "/static/images/Project One Random Quote Generator 1.1.png"
