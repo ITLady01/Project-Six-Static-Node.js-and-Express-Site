@@ -15,10 +15,10 @@ app.use('/static', express.static('public'))
 
 // Home page is being requested 
 app.get('/', (req, res) => {
-  const ProjectData = {
+  const projectData = {
     projects
   }
-  res.render('index', ProjectData);
+  res.render('index', projectData);
 });
 
 // Project pages get request. 
