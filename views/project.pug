@@ -2,7 +2,7 @@ extends layout.pug
 
 block content 
    nav.grid-container.portfolio-breadcrumb
-     a(href='/') ? Back
+      a(href='/') ← Back
   article.grid-container.portfolio-intro.portfolio-project
     .grid-x
       .cell.small-6.medium-9.large-9
@@ -23,8 +23,8 @@ block content
             li= tech
 
         //- This urls are being added for the Live Demo and Github Demo
-        a.button.expanded(href=`${projectData.live_Link}`,target= "_blank") Live Demo 
-        a.button.expanded(href=`${projectData.github_Link}`,target= "_blank") GitHub Repo
+        a.button.expanded(href=`${projectData.liveLink}`,target= "_blank") Live Demo 
+        a.button.expanded(href=`${projectData.githubLink}`,target= "_blank") GitHub Repo
         
     
     //- Project Images will be added to each project
