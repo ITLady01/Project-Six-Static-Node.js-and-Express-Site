@@ -23,7 +23,9 @@ h1{
     text-transform: uppercase;
     font-weight: 600;
   }
-
+  h1.hover{
+    color: plum;
+   }
   p{
     font-size: 20px;
     color:black;
@@ -32,7 +34,7 @@ h1{
   div.cell.auto{
     font-size: 20px;
     color: White;
-      }
+          }
 
 .round{
   border-radius: 5px;
@@ -57,7 +59,9 @@ a{
 a:hover{
   color: #111;
 }
-
+h5:hover{
+  color:purple;
+}
 .image{
   display: inline-block;
   max-width: 100%;
