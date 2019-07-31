@@ -42,6 +42,7 @@ h1{
 
 .text-light{
   color: black;
+  word-wrap: initial;
 }
 
 .button{

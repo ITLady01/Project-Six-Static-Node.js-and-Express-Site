@@ -54,11 +54,11 @@
       },
       {
         "id": [4],
-        "project_Title": "Public API Request",
+        "project_Title": "Project-Five-Public-API-Request",
         "description": "This project uses Fetch API to request data from a public API. The project will allow users to search through the directory of employees. If an employee is clicked a modal will open with more info on the employee as well as buttons to allow the user to move through each employee",
         "technologies": ["HTML", "CSS", "JavaScript", "JSON", "jQuery", "Random User API"],
-        "live_Link": "https://itlady01.github.io/Project-Five-Public-API/",
-        "github_Link": "https://github.com/ITLady01/Project-Five-Public-API",
+        "live_Link": "https://github.com/ITLady01/Project-Five-Public-API-Request",
+        "github_Link": "https://itlady01.github.io/Project-Five-Public-API-Request/.",
         "image_Links": [
           "/static/images/API Request Public Project Five.PNG",
           "/static/images/API Request Public Project Five 1.0.PNG",
