@@ -1,14 +1,21 @@
 
+body{
+  background-color:lavender;
+}
 h1,h2,h3,h4,h5,p{
   font-family: 'Merriweather', serif;
   color:blue;
 }
 
+h1{
+ color:blue;
+}
   h5{
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    letter-spacing: 2.5px;
+    letter-spacing: 3.0px;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
+    color: violet;
   }
 
   h6{
@@ -18,20 +25,26 @@ h1,h2,h3,h4,h5,p{
     font-weight: 600;
     color:blue;
   }
-
+  h1.hover{
+    color: plum;
+   }
   p{
-    font-size: 15px;
-    color: #666;
-  }
+    font-size: 20px;
+    color:black;
+    font-weight: 50;
+    }
+  div.cell.auto{
+    font-size: 20px;
+    color: White;
+          }
 
 .round{
   border-radius: 5px;
 }
 
 .text-light{
-  color: #666;
-  font-size: 30px;
-  
+  color: black;
+  word-wrap: initial;
 }
 
 .button{
@@ -43,13 +56,15 @@ h1,h2,h3,h4,h5,p{
 }
 
 a{
-  color: #333;
+  color: rgb(187, 184, 184);
 }
 
 a:hover{
   color: #111;
 }
-
+h5:hover{
+  color:purple;
+}
 .image{
   display: inline-block;
   max-width: 100%;
@@ -64,7 +79,7 @@ a:hover{
   padding: 20px;
   background: #121213;
   color: #fff;
-  box-shadow: none !important;
+  box-shadow: inset !important;
 }
 
   .portfolio-me p{

@@ -15,10 +15,10 @@ app.use('/static', express.static('public'))
 
 // Home page is being requested 
 app.get('/', (req, res) => {
-  const ProjectData = {
+  const projectData = {
     projects
   }
-  res.render('index', ProjectData);
+  res.render('index', projectData);
 });
 
 // Project pages get request. 
@@ -40,7 +40,7 @@ app.get('/project/:id', (req, res, next) => {
   const liveLink = project.live_Link;
   const githubLink = project.github_Link;
   const imageLinks = project.image_Links;
-
+  
   // Object that holds all the data
   const projectData = {
     projectTitle,
