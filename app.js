@@ -8,7 +8,7 @@ const projects = data.projects;
 const app = express();
 
 // Sets the view engine to use pug files
-app.set('view engine', 'pug');
+app.set('view engine', 'pug'); 
 
 // Static method to use the files in public folder
 app.use('/static', express.static('public'))
