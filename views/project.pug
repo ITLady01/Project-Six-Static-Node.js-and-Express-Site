@@ -8,39 +8,30 @@ block content
       .cell.small-6.medium-9.large-9
 
         //- Use interploation to dynamically add the project title.
-        <h1> Title </h1>
+        h1 #{projectData.projectTitle}
 
         //- Use interploation to dynamically add the project description.
-        <p>.lead.text-light</p>
-          | Description
+        p.lead.text-light
+          |#{projectData.description} 
 
-      .cell.portfolio-meta.small-6.medium-2.large-3
-        <h6> Technologies </h6>
+      .cell.portfolio-meta.small-6.medium-2.large-3z
+        h6  Technologies
 
-        //- Use an `each` iterator to replace the li tags below and interploation to dynamically add the technologies used in each project.
-        <ul>
-          <li> HTML <li>
-          <li> CSS <li>
-          <li> JavaScript<li>
+        //- This each will display each technology in each project
+        ul
+          each tech in projectData.technologies
+            li= tech
 
-        //- Use template literals and interpolation to add URLs to the hrefs below so they link to the repo and the live version of each project.
-        a.button.expanded(href='') Live Demo
-        a.button.expanded(href='') GitHub Repo
+        //- This urls are being added for the Live Demo and Github Demo
+        a.button.expanded(href=`${projectData.liveLink}`,target= "_blank") Live Demo 
+        a.button.expanded(href=`${projectData.githubLink}`,target= "_blank") GitHub Repo
+        
     
-    //- Replace the URLs in the src attributes below with template literals and interpolation to dynamically add three project images.  You only have to add one image.  But adding more images to show your app in different states demonstrates a level of thoroughness and professionalism that potential emplyers will like to see. 
-    img.image(src='https://placehold.it/1200x550')
-    img.image(src='https://placehold.it/1200x550')
-    img.image(src='https://placehold.it/1200x550')
+    //- Project Images will be added to each project
+    
+    each image in projectData.imageLinks
+      img.image(src=image)
+      
 
-   // https://itlady01.github.io/Project-Two-List-Pagination-and-filtering/
-   
-   // https://github.com/ITLady01/Project-Five-Public-API
-
-   //https://itlady01.github.io/GitHub/ Project #1
-
-   //https://itlady01.github.io/Project-Three-Interactive-form/ Project#3
-   
-
-
-
+    
     

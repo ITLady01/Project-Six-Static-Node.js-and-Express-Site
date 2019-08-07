@@ -1,23 +1,26 @@
 {
-  "name": "project-six-static-node.js-and-express-site",
+  "name": "node",
   "version": "1.0.0",
   "description": "Static Node.js and Express Site Project",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1",
+    "pug": "^2.0.4"
   },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ITLady01/Project-Six-Static-Node.js-and-Express-Site.git"
   },
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/ITLady01/Project-Six-Static-Node.js-and-Express-Site/issues"
   },
-  "homepage": "https://github.com/ITLady01/Project-Six-Static-Node.js-and-Express-Site#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "pug": "^2.0.4"
-  }
+  "homepage": "https://github.com/ITLady01/Project-Six-Static-Node.js-and-Express-Site#readme"
 }
