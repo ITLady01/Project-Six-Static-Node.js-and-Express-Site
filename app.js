@@ -1,6 +1,5 @@
 //Require express
 const express = require('express');
-// Getting the data from the data.json
 const data = require('./data/data.json');
 const projects = data.projects;
 
@@ -52,8 +51,7 @@ app.get('/project/:id', (req, res, next) => {
   }
 
   // Renders the project page with the data
-  res.render('project', {
-    projectData
+  res.render('project', {  projectData
   });
 
 });
