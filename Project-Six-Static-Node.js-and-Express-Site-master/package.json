@@ -18,6 +18,6 @@
   "homepage": "https://github.com/ITLady01/Project-Six-Static-Node.js-and-Express-Site#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "pug": "^2.0.4"
+    "pug": "^3.0.1"
   }
 }
